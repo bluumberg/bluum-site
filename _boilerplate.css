@@ -1,0 +1,38 @@
+/* Begin boilerplate */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   html, body {
+    height: 100%;
+    font-size: 100%;
+   }
+
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6,
+   p {
+  
+    margin-bottom: 16px;
+   }
+
+   html:focus-within {
+    scroll-behavior: smooth;
+  } 
+
+   input, button, textarea, select {
+    font: inherit;
+  }
+
+   a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+/* End boilerplate */
+
+
