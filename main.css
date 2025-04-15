@@ -191,7 +191,7 @@
       right: 3.5%
   }
 
-  input[type="checkbox"] ~ html, body {
+  html, body {
     overflow-x: hidden;
   } 
   
@@ -211,7 +211,7 @@
      
   }
 
-  input[type="checkbox"] ~ html, body {
+ html, body {
     overflow-x: hidden;
   } 
 
