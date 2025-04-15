@@ -164,8 +164,6 @@
         margin-top: 25px;
     }
 
-    
-
 }
 
 @media (max-width: 576px) {
@@ -193,6 +191,10 @@
       right: 3.5%
   }
 
+  input[type="checkbox"] ~ html, body {
+    overflow-x: hidden;
+  } 
+  
 }
 /* Small smart phones */
 @media (max-width: 375px) {
@@ -209,6 +211,8 @@
      
   }
 
-  
+  input[type="checkbox"] ~ html, body {
+    overflow-x: hidden;
+  } 
 
 }
