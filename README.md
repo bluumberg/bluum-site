@@ -5,7 +5,7 @@ Jesús Andrade Mares, Emma Ash
 
 */Notes - 4.15.25/*
 
-Domain shoould be working! bluumdesigns.com Deployed through Vercel, bud code gets edited and added via github.
+Domain shoould be working! bluumdesigns.com Deployed through Vercel, but code gets edited and added via github.
 Running on vanilla HTML and CSS. CSS is separated in in different sheets but imported via main.css,
 might eventually upgrade to SASS compiler. 
 No JS atm but considering updating to injection or playing around with react just to learn, but will-
