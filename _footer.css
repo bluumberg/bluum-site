@@ -197,3 +197,34 @@ footer h6 {
   .row-2-left a:hover {
     color: #E3DBFF;
   }
+
+  @media (max-width: 768px) {
+    .footer-content {
+        padding-left: 5%;
+        padding-bottom: 6%;
+    }
+
+    .foot-nav {
+        display: flex;
+        justify-content: left;
+        margin-top: 5vh;
+    }
+    
+    .verticalLine {
+        margin-left: 2vh;
+        margin-right: 2vh;
+        width: 2px;
+      }
+    
+      .footer-row-1 img {
+        /* Bluum Logo in Footer */
+        margin-top: 25px;
+    }
+    .horizontal-line {
+        margin-left: -5%;
+    }
+
+    
+  }
+
+

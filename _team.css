@@ -1,0 +1,160 @@
+.header-team {
+    width: 100%;
+}
+
+.team-overview {
+    width: clamp(50vh, 60vw, 800px);
+    height: 438px;
+    background-color: #C7B8FF;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 35px;
+    padding: 5%;
+}
+
+.team-overview h1 {
+    font-family: var(--heading-font);
+    font-size: clamp(2.5rem, 5vw, 5rem);
+}
+
+.team-overview p {
+    font-family: var(--body-font);
+    font-size: clamp(1rem, 1.4vw, 1.5rem);
+    max-width: 70vh;
+    line-height: 1.2;
+}
+
+/* BEGIN TEAM SECTION */
+
+.team-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 25px;
+    /* background-color: aqua; */
+}
+
+.tm-profile {
+    margin-top: 5%;
+    /* border-radius: 35px;   
+    padding: 2%; */
+    /* background-color: aqua; */
+}
+
+.profile-image {
+    width: 40vh;
+    min-width: 250px;
+    height: 40vh;
+    min-height: 200px;
+    background-color: #251A4F;
+    border-radius: 35px;
+    background-position: center;
+    background-size: cover;
+}
+
+.jesus .profile-image {
+    background-size: 128%;
+}
+
+.tm-about {
+    background: #563DB2;
+    box-shadow: 0px 16px 0px 0px #FFEA00;
+    padding: 5% 2% 0 5%;
+    border-radius: 25px;
+    margin: auto;
+    max-width: 40vh;
+    min-width: 250px;
+    /* margin: auto; */
+}
+
+.tm-about h2 {
+    line-height: 0;
+    margin-top: 3%;
+    color: #fff;
+    font-weight: 600;
+    font-size: clamp(1rem, 1.8vw, 1.5rem);
+}
+
+.tm-about p {
+    font-family: var(--heading-font);
+    font-weight: 300;
+    color: #C7B8FF;
+}
+
+.tm-description {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.tm-description a {
+    display: none;
+}
+
+/* SECOND ROWWWWW TEAM MEMBERS */
+.team-row2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 50px;
+    
+}
+
+
+/* ROW 3 ADVISORY BOARD **************/
+
+.advisory-board {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advisory-board h1 {
+    font-family: var(--heading-font);
+    font-size: clamp(2.5rem, 5vw, 3rem);
+}
+
+.team-row3 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-bottom: 15%;
+    
+}
+
+.kathy {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -5,7 +5,8 @@
 @import url(_home.css);
 @import url(_about.css);
 @import url(_footer.css);
-@import url(_animations);
+@import url(_animations.css);
+@import url(_team.css);
 
 :root {
     /* COLORS */
@@ -22,198 +23,18 @@
     /* --heading-font: "Bricolage Grotesque", sans-serif;  Needs to be imported first */
     --logo-font: "DT Getai Grotesk Display";
     --text-font: "Open Sans", sans-serif;
+    --body-font: "Bricolage Grotesque", sans-serif;
+    --heading-font: "Bricolage Grotesque", sans-serif;
 
 }
+
+
 
 
   /* Responsive Design
   NEEDS TO BE MOVED TO THEIR RESPECTIVE STYLE FILES
   */
-  @media (max-width: 768px) {
-    .hero {
-        flex-direction: column;
-    }
-    
-    .hero-content, .hero-image {
-        max-width: 100%;
-    }
 
-    .phone {
-        padding-top: 25px;
-        padding-left: 0px;
-    }
-    
-    nav ul {
-        display: none;
-    }
 
-    .hero-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: -40px;
-    }
 
-    .cta-container2 {
-        /* margin-top: 45px; */
-        background-color: #261954;
-        height: 75px;
-        width: 250px;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .mobile-changes {
-        margin-top: 35px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .mobile-changes p {
-        text-align: center;
-        font-weight: 350;
-    }
-
-    .hero-content h1 {
-        text-align: center;
-        margin-top: 25px;
-        margin-bottom: 45px;
-    
-    }
-    .hero-content p {
-        display: none;
-        
-    }
-   
-    .cta-container {
-        display: none;
-    }
-    .cta-button {
-        font-size: 20px;
-    }
-
-  
-   
-  
-    .decorative-shape {
-        position: absolute;
-        z-index: -1;
-    }
-    
-    /* Pink Shape */
-    .shape-1 {
-        top: 5%;
-        left: -20%;
-        width: 20vw;
-        height: 20vw;
-        transform: rotate(8deg);
-        /* max-width: 157px;
-        max-height: 157px;   */
-    }
-    
-    /* Yellow shape */
-    .shape-2 {
-        bottom: 1%;
-        left: -50%;
-        width: 60vw;
-        height: 60vw;
-        max-width: 700px;
-        max-height: 700px;
-       
-        
-    }
-    
-    /* Purple shape */
-    .shape-3 {
-        top:   4%;
-        right: -20vw;
-        transform: scale(1.1);
-        /* max-width: 270px; */
-    }
-    
-    /* Green shape */
-    .shape-4 {
-        bottom: 7%;
-        right: -12vw;
-        transform: scale(1.5);
-     
-    }
-    
-    .menu-toggle {
-        display: block;
-    }
-
-    .foot-nav {
-        display: flex;
-        justify-content: left;
-        margin-top: 5vh;
-    }
-
-    .verticalLine {
-        margin-left: 2vh;
-        margin-right: 2vh;
-        width: 2px;
-      }
-
-      .footer-row-1 img {
-        /* height: 8vw; */
-        margin-top: 25px;
-    }
-
-}
-
-@media (max-width: 576px) {
-  header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 4%;  
-      background-image: url(images/nav-bar-mobile.svg);
-      background-size: cover;
-      width: 100%;
-      height: 10vh;
-      background-repeat: no-repeat;
-     
-  }
-
-  /* .logo-container img {
-      width: 48vw;
-  } */
-
-  header .hamburger-lines {
-      height: 22px;
-      width: 28px;
-      top: 2.5%;
-      right: 3.5%
-  }
-
-  html, body {
-    overflow-x: hidden;
-  } 
-  
-}
-/* Small smart phones */
-@media (max-width: 375px) {
-  header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 4%;  
-      background-image: url(images/nav-bar-mobile.svg);
-      background-size: cover;
-      width: 100%;
-      height: 10vh;
-      background-repeat: no-repeat;
-     
-  }
-
- html, body {
-    overflow-x: hidden;
-  } 
-
-}
 
