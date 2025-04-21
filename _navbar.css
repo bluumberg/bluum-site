@@ -250,10 +250,9 @@ input[type="checkbox"]:checked ~ .mobile-menu {
   
 }
 
-/* hides the overflow */
- input[type="checkbox"] ~ html, body {
-  overflow-x: hidden;
-} 
+body .menu-open {
+  overflow: hidden; /* Prevent scrolling when menu is open */
+}
 
 /*animation for hamburger menu*/
 input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
