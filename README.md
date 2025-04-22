@@ -13,7 +13,6 @@ do so later-half of the year.
 
 Site is still quite buggy and needs some tweakss!!
 Issues:
-*Mobile Menus - for some reason the menu doesn't hide when viewed on a mobile device at least on Iphone browsers (Brave, Safari)
 
 *Navbar looks off on mobile devices, logo is bleeding over the purple waves causing poor readability.
 
@@ -24,7 +23,6 @@ injection might be a good idea.
 
 *Animals are missing in mobile view, purposefully hidden, need to figure out a good placement for these first, but it is a low priority atm.
 
-*Learn more button is still not linked in mobile view, will just link to about page.
 
 *Might create a separate page for Team */still needs to be designed/*
 
