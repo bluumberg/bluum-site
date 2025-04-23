@@ -12,3 +12,34 @@
           }
         });
       });
+
+      // Update to see if it fixes scrolling issue
+
+      document.addEventListener('DOMContentLoaded', function() {
+        const menuCheckbox = document.querySelector('.checkbox');
+        let scrollPosition = 0;
+        
+        menuCheckbox.addEventListener('change', function() {
+          if (this.checked) {
+            // Save current scroll position
+            scrollPosition = window.pageYOffset;
+            
+            // Add menu-open class and set specific iOS styles
+            document.body.classList.add('menu-open');
+            
+            // Apply inline styles for iOS
+            document.body.style.position = 'fixed';
+            document.body.style.top = `-${scrollPosition}px`;
+            document.body.style.width = '100%';
+          } else {
+            // Remove menu-open class
+            document.body.classList.remove('menu-open');
+            
+            // Remove inline styles and restore scroll position
+            document.body.style.position = '';
+            document.body.style.top = '';
+            document.body.style.width = '';
+            window.scrollTo(0, scrollPosition);
+          }
+        });
+      });

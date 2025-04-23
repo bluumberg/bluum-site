@@ -250,9 +250,7 @@ input[type="checkbox"]:checked ~ .mobile-menu {
   
 }
 
-body .menu-open {
-  overflow: hidden; /* Prevent scrolling when menu is open */
-}
+
 
 /*animation for hamburger menu*/
 input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
@@ -266,6 +264,8 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
 input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   transform: rotate(-45deg);
 }
+
+
 
 @media (max-width: 576px) {
   header {
@@ -309,4 +309,18 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 
 }
 
+/* Prevent scrolling when menu is open */
+body.menu-open {
+  overflow: hidden; 
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  -webkit-overflow-scrolling: none;
+}
 
+@supports (-webkit-touch-callout: none) {
+  /* iOS specific styles */
+  body.menu-open {
+    /* These will be set inline by JavaScript */
+  }
+}

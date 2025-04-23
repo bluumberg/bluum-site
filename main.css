@@ -25,6 +25,9 @@
     --text-font: "Open Sans", sans-serif;
     --body-font: "Bricolage Grotesque", sans-serif;
     --heading-font: "Bricolage Grotesque", sans-serif;
+    --subheading-font: "Bricolage Grotesque", sans-serif;
+
+    --body-font-size: clamp(14px, 1.1rem, 1.4rem);
 
 }
 
