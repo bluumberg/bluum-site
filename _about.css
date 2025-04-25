@@ -135,7 +135,7 @@
    }
 
    .what-container {
-    background-color: #ffffff;
+    background-color: #ffff;
     display: flex;
     /* flex-wrap: wrap;  */
     /* width: 80vw; */
@@ -165,6 +165,7 @@
    .what-text {
       max-width: 500px;
       height: clamp(100%, 50vw, 50vw);
+      background-color: #ffff;
       /* padding-left: 5%;
       padding-right: 5%; */
       padding: 2% 3% 3% 5%;
