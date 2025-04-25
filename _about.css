@@ -3,8 +3,8 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: max-content;
-    padding: 12% 4% 20% 4%;
+    height: 120vh;
+    padding: 12% 4% 12% 4%;
    }
 
 
@@ -12,7 +12,7 @@
    .purp-container {
     background-color:#452E99;
     height: clamp(500px, 62vw, 650px);
-    width: 140vw;
+    width: 90vw;
     border-radius: 45px;
     padding: 8% 8% 5% 8%;
     display: flex;
@@ -212,7 +212,7 @@
       /* mobile changes */
       .what-container {
          flex-wrap: wrap-reverse;
-         padding: 0;
+       
       }
 
       .what-image {
