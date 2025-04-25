@@ -69,18 +69,13 @@
    }
 
    .corgi {
-    /* width: 216px; */
     height: 25vw;
     max-height: 318px;
-    /* height: clamp(); */
-    /* background-color: orange;  */
-    /* background-image: url(images/about-corgi.png); */
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
     left: 1vw;
     bottom: -5vw;
-    /* bottom: clamp(-5vw, -3vw, -7vw); */
     display: flex;
     align-items: end;
    }
@@ -113,11 +108,12 @@
       .purpose { 
          padding: 18% 4% 10% 4%;
          margin-bottom: 10%;
+         margin-top: 10%;
       }
 
       .purp-container p {
-         width: 90vw;
-         height: 100%;
+         margin-top: 5%;
+         width: 100%;
          text-align: center;
    } 
 }
