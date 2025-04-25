@@ -259,6 +259,7 @@ body.menu-open {
 @media (max-width: 576px) {
   header {
     background-image: url(images/nav-bar-mobile.svg);
+    background-position: 20%;
     height: 10vh;
   }
 
@@ -274,10 +275,10 @@ body.menu-open {
 @media (max-width: 375px) {
   header {
     background-image: url(images/nav-bar-mobile.svg);
-    height: 12vh;
+    height: 11vh;
 
     .logo-text {
-      max-width: 120px;
+      max-width: 35vw;
     }
   }
 }
