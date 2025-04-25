@@ -276,11 +276,11 @@ body.menu-open {
   header {
     background-image: url(images/nav-bar-mobile.svg);
     height: 11vh;
+}
 
-    .logo-text {
-      max-width: 35vw;
-    }
-  }
+.logo-text {
+  max-width: 30vw;
+}
 }
 
 /* iOS specific styles */
