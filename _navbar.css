@@ -270,7 +270,7 @@ body.menu-open {
   header .hamburger-lines {
     height: 22px;
     width: 28px;
-    top: 3%;
+    top: 3.5%;
     right: 3%
   }  
 }
@@ -279,12 +279,11 @@ body.menu-open {
 @media (max-width: 375px) {
   header {
     background-image: url(images/nav-bar-mobile.svg);
-    background-position: center;
     height: 11vh;
 }
 
 .logo-text {
-  max-width: 70px;
+  max-width: 30vw;
 }
 }
 
