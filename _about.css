@@ -4,7 +4,7 @@
     justify-content: center;
     width: 100%;
     height: 120vh;
-    padding: 12% 4% 12% 4%;
+    padding: 12% 4% 0 4%;
    }
 
 
@@ -111,7 +111,8 @@
          /* right: 1%; */
       }
       .purpose { 
-         padding: 18% 4% 40% 4%;
+         padding: 18% 4% 10% 4%;
+         margin-bottom: 10%;
       }
 
       .purp-container p {
@@ -129,7 +130,7 @@
     width: 100%;
     background: #6B48E8;
     min-height: 130vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* padding: 4%;  */
    }
 
@@ -139,10 +140,11 @@
     /* flex-wrap: wrap;  */
     /* width: 80vw; */
     width: 90vw;
-    padding: 5% 5% 5% 0;
+    padding: 5% 5% 5% 0%;
     justify-content: center;
     align-items: center;
     border-radius: 45px;
+    box-shadow: 0px 45px 0px 0px #FFEA00;
     
    }
 
@@ -151,7 +153,7 @@
  
 
    .what-image {
-    width: 180vw; 
+    width: 100%;
     height: clamp(380px, 70vh, 500px);
     background-color: #FFEA00;
     border-radius: 35px;
@@ -161,10 +163,11 @@
    }
 
    .what-text {
-  
-      height: clamp(100%, 38vw, 50vw);
-      padding: clamp(5%, 3%, 4%);
-      background-color: #ffffff;
+      max-width: 500px;
+      height: clamp(100%, 50vw, 50vw);
+      /* padding-left: 5%;
+      padding-right: 5%; */
+      padding: 2% 3% 3% 5%;
       border-radius: 35px;
       white-space: normal; 
      }
@@ -212,7 +215,7 @@
       /* mobile changes */
       .what-container {
          flex-wrap: wrap-reverse;
-       
+         padding: 0;
       }
 
       .what-image {
@@ -222,6 +225,10 @@
 
       .what-container {
          background-color: transparent;
+      }
+
+      .what-text {
+         padding: 10%;
       }
 
       .what-text p {
@@ -473,7 +480,7 @@
    height: 100%;
    display: flex;
    flex-direction: column;
-   gap: 70px;
+   gap: 10vh;
    /* padding: 3%; */
    justify-content: center;
    align-items: center;
