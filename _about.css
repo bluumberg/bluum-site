@@ -534,7 +534,11 @@
    width: clamp(340px, 30vw, 500px);
    border-radius: 35px;
    box-shadow: 0px 30px 0px 0px #FFEA00;
+  }
 
+  /* adjustments to first value image */
+  .v-image1 {
+   background-position: left;
   }
 
   .value-textbox {

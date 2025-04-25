@@ -1,3 +1,5 @@
+    // JS TO PREVENT SCROLLING ISSUE WHEN MENU IS OPEN//
+    
     document.addEventListener('DOMContentLoaded', function() {
         // Get the checkbox element
         const menuCheckbox = document.querySelector('.checkbox');
@@ -43,3 +45,6 @@
           }
         });
       });
+
+
+

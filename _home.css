@@ -1,39 +1,41 @@
 /* Hero Section */
+/* ************ */
+
 .hero {
     display: flex;
     align-items: center;
     padding: 2rem 5%;
     min-height: 80vh;
-    /* background-color: var(--primary-purple); */
     position: relative;
     overflow: hidden;
-}
-
-.hero-content {
+  }
+  
+  /* Hero Content */
+  .hero-content {
     flex: 1;
     max-width: 50%;
     z-index: 2;
     color: #000;
-}
-
-.hero h1 {
+  }
+  
+  .hero h1 {
     font-size: clamp(1.75rem, 4vw, 3rem);
     color: #000;
     line-height: 1;
     margin-bottom: 1.5rem;
     font-family: "Bricolage Grotesque", sans-serif;
-    
-}
-
-.hero p {
+  }
+  
+  .hero p {
     font-family: "Open Sans", sans-serif;
     font-size: clamp(1.1rem, 2vw, 1.4rem);
     color: #000000;
     margin-bottom: 2rem;
-}
-
-/* Learn more button */
-.cta-container {
+    text-wrap: pretty;
+  }
+  
+  /* CTA Buttons */
+  .cta-container {
     background-color: #261954;
     height: 64.5px;
     width: 199px;
@@ -41,214 +43,200 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.cta-button {
+  }
+  
+  .cta-button {
     font-family: "Open Sans", sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 0.8rem 1.5rem; */
     color: #fff;
     text-decoration: none;
-    /* border-radius: 5px; */
     font-weight: bold;
     font-size: 17px;
-}
-
-.arrow {
-    margin-left: 27px;
-    
-}
-
-.cta-container2 {
-    display: none;
-}
-
-.cta-container a:hover img {
-    opacity: .7;
   }
-
+  
+  .arrow {
+    margin-left: 27px;
+  }
+  
+  .cta-container a:hover img,
   .cta-container a:hover {
     opacity: .7;
   }
-
-
-.hero-image {
+  
+  /* Mobile CTA - Hidden by default */
+  .cta-container2 {
+    display: none;
+  }
+  
+  /* Hero Image */
+  .hero-image {
     flex: 1;
     position: relative;
     z-index: 100;
-}
-
-.phone {
+  }
+  
+  .phone {
     margin-top: 10%;
     max-height: 616px;
     display: block;
     padding-left: 40%;
+    padding-right: 150px;
     flex: 1;
     z-index: 200;
-
-}
-
-.decorative-shape {
+  }
+  
+  /* Decorative Shapes */
+  .decorative-shape {
     position: absolute;
     z-index: -1;
-    width: 15vw; /* Responsive width based on viewport width */
+    width: 15vw;
     height: 15vw;
-}
-
-.shape-1 {
+  }
+  
+  /* Pink Shape */
+  .shape-1 {
     top: -3%;
     left: 20%;
     width: 20vh;
     height: 20vh;
-    /* max-width: 157px;
-    max-height: 157px;   */
-}
-
-.shape-2 {
+  }
+  
+  /* Yellow Shape */
+  .shape-2 {
     bottom: -30%;
     left: -12%;
     width: 45vw;
     height: 45vw;
     max-width: 700px;
     max-height: 700px;
-    
-}
-
-.shape-3 {
-    top:   6%;
+  }
+  
+  /* Purple Shape */
+  .shape-3 {
+    top: 6%;
     right: -20%;
     width: 27vh;
     max-width: 270px;
-}
-
-.shape-4 {
+  }
+  
+  /* Green Shape */
+  .shape-4 {
     bottom: -9%;
     right: -20%;
     width: 15vw;
-}
-
-/* Hides mobile only content */
-.mobile-changes {
+  }
+  
+  /* Mobile Content - Hidden by default */
+  .mobile-changes {
     display: none;
-}
-
-
-/* Responsive changes to hero content */
-@media (max-width: 768px) {
+  }
+  
+  /* Responsive Styles */
+  /* ***************** */
+  
+  @media (max-width: 768px) {
+    /* Layout Changes */
     .hero {
-        flex-direction: column;
+      flex-direction: column;
     }
     
-    .hero-content, .hero-image {
-        max-width: 100%;
-    }
-
-    .phone {
-        padding-top: 25px;
-        padding-left: 0px;
+    .hero-content, 
+    .hero-image {
+      max-width: 100%;
     }
     
-    nav ul {
-        display: none;
-    }
-
     .hero-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: -40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: -40px;
     }
-
-    .cta-container2 {
-        /* margin-top: 45px; */
-        background-color: #261954;
-        height: 75px;
-        width: 250px;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .mobile-changes {
-        margin-top: 35px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .mobile-changes p {
-        text-align: center;
-        font-weight: 350;
-    }
-
+    
     .hero-content h1 {
-        text-align: center;
-        margin-top: 25px;
-        margin-bottom: 45px;
-    
+      text-align: center;
+      margin-top: 25px;
+      margin-bottom: 45px;
     }
+    
     .hero-content p {
-        display: none;
-        
+      display: none;
     }
-   
+    
+    /* Navigation */
+    nav ul {
+      display: none;
+    }
+    
+    /* Phone Image */
+    .phone {
+      padding-top: 25px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    
+    /* CTA Buttons */
     .cta-container {
-        display: none;
+      display: none;
     }
+    
+    .cta-container2 {
+      background-color: #261954;
+      height: 75px;
+      width: 250px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
     .cta-button {
-        font-size: 20px;
-    }
-
-  
-   
-  
-    .decorative-shape {
-        position: absolute;
-        z-index: -1;
+      font-size: 20px;
     }
     
-    /* Pink Shape */
+    /* Mobile Content */
+    .mobile-changes {
+      margin-top: 35px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .mobile-changes p {
+      text-align: center;
+      font-weight: 350;
+      text-wrap: pretty;
+    }
+    
+    /* Decorative Shapes - Mobile Positions */
     .shape-1 {
-        top: 5%;
-        left: -20%;
-        width: 20vw;
-        height: 20vw;
-        transform: rotate(8deg);
-        /* max-width: 157px;
-        max-height: 157px;   */
+      top: 5%;
+      left: -20%;
+      width: 20vw;
+      height: 20vw;
+      transform: rotate(8deg);
     }
     
-    /* Yellow shape */
     .shape-2 {
-        bottom: 1%;
-        left: -50%;
-        width: 60vw;
-        height: 60vw;
-        max-width: 700px;
-        max-height: 700px;
-       
-        
+      bottom: 1%;
+      left: -50%;
+      width: 60vw;
+      height: 60vw;
+      max-width: 700px;
+      max-height: 700px;
     }
     
-    /* Purple shape */
     .shape-3 {
-        top:   4%;
-        right: -20vw;
-        transform: scale(1.1);
-        /* max-width: 270px; */
+      top: 4%;
+      right: -20vw;
+      transform: scale(1.1);
     }
     
-    /* Green shape */
     .shape-4 {
-        bottom: 7%;
-        right: -12vw;
-        transform: scale(1.5);
-     
+      bottom: 7%;
+      right: -12vw;
+      transform: scale(1.5);
     }
-    
-   
-
-}
+  }
