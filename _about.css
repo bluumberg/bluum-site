@@ -1,9 +1,9 @@
 /*///////////////////// PURPOSE SECTION //////////////////*/
-.purpose {
+ .purpose {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 130vh;
+    height: 120vh;
     padding: 12% 4% 0 4%;
    }
 
@@ -13,6 +13,7 @@
     background-color:#452E99;
     /* height: clamp(500px, 62vw, 650px); */
     width: 90vw;
+    height: 60%;
     border-radius: 45px;
     padding: 8% 8% 8% 8%;
     display: flex;
