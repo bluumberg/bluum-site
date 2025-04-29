@@ -127,7 +127,7 @@
                             <li><a href="index.html">Home</a></li><div class="verticalLine"></div>
                             <li><a href="about.html">About</a></li><div class="verticalLine"></div>
                             <li><a href="team.html">Our Team</a></li><div class="verticalLine"></div>
-                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#" id="open-modal">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -153,6 +153,23 @@
         
         </div>
     </footer>
+
+    <!-- MODAL CONTACT FORM -->
+    <div id="contact-modal" class="modal hidden">
+        <div class="modal-content">
+          <span class="close-btn" id="close-modal">&times;</span>
+          <h2>Contact Us</h2>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="89f0ac91-d601-4e2c-b2a0-977a35f2b111" />
+            <input type="text" name="name" placeholder="Your Name" srequired>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <div class="form-footer">
+                <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
     
     <script src="main.js"></script>
    
