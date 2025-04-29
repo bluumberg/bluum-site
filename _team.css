@@ -19,13 +19,14 @@
 
 .team-overview h1 {
     font-family: var(--heading-font);
-    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-size: clamp(4rem, 4.2vw, 140px);
 }
 
 .team-overview p {
     font-family: var(--body-font);
-    font-size: clamp(1rem, 1.4vw, 1.5rem);
+    font-size: clamp(1rem, 1.4vw, 24px);
     max-width: 70vh;
+    font-weight: 300;
     line-height: 1.2;
 }
 

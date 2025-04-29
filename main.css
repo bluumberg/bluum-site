@@ -2,10 +2,11 @@
 @import url(_boilerplate.css);
 @import url(_variables.css);
 @import url(_navbar.css);
+@import url(_animations.css);
 @import url(_home.css);
 @import url(_about.css);
 @import url(_footer.css);
-@import url(_animations.css);
+
 @import url(_team.css);
 
 :root {
@@ -23,7 +24,7 @@
     /* --heading-font: "Bricolage Grotesque", sans-serif;  Needs to be imported first */
     --logo-font: "DT Getai Grotesk Display";
     --text-font: "Open Sans", sans-serif;
-    --body-font: "Bricolage Grotesque", sans-serif;
+    --body-font: "Open Sans", sans-serif;
     --heading-font: "Bricolage Grotesque", sans-serif;
     --subheading-font: "Bricolage Grotesque", sans-serif;
 
