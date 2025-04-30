@@ -46,5 +46,16 @@
         });
       });
 
+// CONTACT FORM Modal Toggle
+document.getElementById('open-modal').addEventListener('click', function(e) {
+  e.preventDefault();
+  document.getElementById('contact-modal').classList.remove('hidden');
+  document.getElementById('contact-modal').style.display = 'flex';
+});
+
+document.getElementById('close-modal').addEventListener('click', function() {
+  document.getElementById('contact-modal').style.display = 'none';
+});
+
 
 
