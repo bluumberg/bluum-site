@@ -211,7 +211,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 
 .m-socials img {
   height: 3.2vh;
-  transition: filter 0.3s ease;
+  transition: 220ms all ease-in-out;
 }
 
 .m-socials a:hover img {
