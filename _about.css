@@ -40,12 +40,7 @@
 
   }
 
-  .purp-container::after {
-   content: "";
-   position: absolute;
-   background-image: url(images/team-bkg-2.svg);
-   z-index: 1000; /* Place it behind the container content */
- }
+  
 
    .purp-container h1, h2 {
     font-family: var(--heading-font);
