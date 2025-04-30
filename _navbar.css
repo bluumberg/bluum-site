@@ -106,6 +106,7 @@ nav ul li a {
 .mobile-menu a:hover {
   font-weight: 300;
   color: var(--hover-color);
+  transition: 220ms all ease-in-out;
 }
 
 /* Mobile Logo */
@@ -197,6 +198,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 .mob-menu-footer h6:hover {
   font-weight: 100;
   color: var(--hover-color);
+  transition: 220ms all ease-in-out;
 }
 
 /* Social Icons */
@@ -221,6 +223,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     saturate(1555%) 
     hue-rotate(300deg) 
     brightness(107%);
+    transition: 220ms all ease-in-out;
 }
 
 /* Animations */
