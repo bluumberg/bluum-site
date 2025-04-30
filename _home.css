@@ -54,6 +54,7 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 17px;
+    transition: 220ms all ease-in-out;
   }
   
   .arrow {
@@ -63,6 +64,7 @@
   .cta-container a:hover img,
   .cta-container a:hover {
     opacity: .7;
+    transition: 220ms all ease-in-out;
   }
   
   /* Mobile CTA - Hidden by default */
