@@ -163,6 +163,7 @@ footer h6 {
 
 .social-icons {
     display: flex;
+    transition: 220ms all ease-in-out;
     
 }
 
@@ -222,6 +223,7 @@ footer h6 {
         /* Bluum Logo in Footer */
         margin-top: 25px;
         width: 90vw;
+        transition: 220ms all ease-in-out;
     }
     .horizontal-line {
         margin-left: -5%;
