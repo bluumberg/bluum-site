@@ -113,6 +113,7 @@ footer h6 {
 .foot-nav a:hover{
     font-weight: 400;
     color: var(--hover-color);
+    transition: 220ms all ease-in-out;
 }
 
 .verticalLine {
@@ -171,7 +172,7 @@ footer h6 {
     height: 70%;
     /* background-color: #6B48E8; */
 
-    transition: filter 0.3s ease; 
+    transition: 220ms all ease-in-out;
 }
 
 .linked-in {
@@ -189,10 +190,12 @@ footer h6 {
       saturate(1555%) 
       hue-rotate(300deg) 
       brightness(107%);
+      transition: 220ms all ease-in-out;
   }
 
   .row-2-left a:hover {
     color: #E3DBFF;
+    transition: 220ms all ease-in-out;
   }
 
   @media (max-width: 768px) {
