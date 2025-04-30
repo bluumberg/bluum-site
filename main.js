@@ -57,5 +57,55 @@ document.getElementById('close-modal').addEventListener('click', function() {
   document.getElementById('contact-modal').style.display = 'none';
 });
 
+// HOME TEXT ANIMATION
+document.addEventListener("DOMContentLoaded", () => {
+  const heading = document.querySelector(".hero-content h1");
+  const words = heading.textContent.trim().split(" ");
+  heading.innerHTML = ""; // clear existing text
+
+  words.forEach((word, index) => {
+    const span = document.createElement("span");
+    span.textContent = word + " " ;
+    span.classList.add("word-fade");
+    span.style.animationDelay = `${index * 0.3}s`; // adjust delay speed here
+    heading.appendChild(span);
+  });
+});
+
+// ABOUT PAGE ANIMATIONS
+document.addEventListener("DOMContentLoaded", () => {
+  const fadeElements = document.querySelectorAll(".fade-in");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.animationPlayState = 'running';
+        observer.unobserve(entry.target); // Optional: Animate only once
+      }
+    });
+  }, {
+    threshold: 0.2
+  });
+
+  fadeElements.forEach(el => {
+    el.style.animationPlayState = 'paused'; // Start paused
+    observer.observe(el);
+  });
+});
+
+//text animations on scroll
+const fadeIns = document.querySelectorAll('.fade-in');
+
+const fadeInObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+  });
+}, {
+  threshold: 0.2
+});
+
+fadeIns.forEach(el => fadeInObserver.observe(el));
 
 

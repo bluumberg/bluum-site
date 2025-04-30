@@ -74,3 +74,36 @@
     animation: enterFromBottom 2.1s cubic-bezier(0.68, -0.55, .27, 1.55) forwards;
     animation-delay: 0.7s;
   }
+
+  /* Text Animations Homepage */
+  .word-fade {
+    opacity: 0;
+    display: inline-block;
+    animation: fadeIn 1.5s forwards;
+    margin-right: 0.25em;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* Text animations ABOUT */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s forwards;
+    animation-play-state: paused;
+  }
+  
+  .fade-in.delay-0 { animation-delay: 0.2s; }
+  .fade-in.delay-1 { animation-delay: 0.5s; }
+  .fade-in.delay-2 { animation-delay: 0.8s; }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

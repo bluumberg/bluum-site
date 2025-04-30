@@ -44,6 +44,11 @@
     align-items: center;
     justify-content: center;
   }
+
+  .cta-container:hover {
+    background-color: #E3DBFF;
+    transition: 220ms all ease-in-out;
+  }
   
   .cta-button {
     font-family: "Open Sans", sans-serif;
@@ -65,6 +70,7 @@
   .cta-container a:hover {
     opacity: .7;
     transition: 220ms all ease-in-out;
+    color: var(--dark-purple);
   }
   
   /* Mobile CTA - Hidden by default */
@@ -192,6 +198,8 @@
       align-items: center;
       justify-content: center;
     }
+
+
     
     .cta-button {
       font-size: 20px;

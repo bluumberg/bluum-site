@@ -195,7 +195,7 @@ footer h6 {
   }
 
   .row-2-left a:hover {
-    color: #E3DBFF;
+    color: var(--hover-color);
     transition: 220ms all ease-in-out;
   }
 
