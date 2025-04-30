@@ -6,12 +6,13 @@
 @import url(_home.css);
 @import url(_about.css);
 @import url(_footer.css);
+@import url(_form.css);
 
 @import url(_team.css);
 
 :root {
     /* COLORS */
-    --primary-purple: #6c5ce7;
+    --primary-purple: #734DFF;
     --dark-purple: #261954;
     --accent-pink: #ff69b4;
     --accent-yellow: #ffd700;
@@ -19,6 +20,7 @@
     --text-dark: #333;
     --text-light: #fff;
     --hover-color: #ff69b4;
+    --hover-color2: #a62967;
 
     /* FONTS */
     /* --heading-font: "Bricolage Grotesque", sans-serif;  Needs to be imported first */
